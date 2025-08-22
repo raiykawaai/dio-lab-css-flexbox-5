@@ -1,4 +1,3 @@
-css projeto 5 dio:
 
 *, 
 *:after,
@@ -29,14 +28,26 @@ body{
 .input-pesquisa{
     width: 348px;
     height: 40px;
+    float:left; 
 }
 .btn-pesquisa{
     width: 57px;
     height: 40px;
+    float:left;   
 }
 .img-pesquisa{
     width: 24px;
     height: 24px;
+}
+.img-video-icone{
+    padding: 5px;
+}
+.img-sino-icone{
+    padding: 5px;
+}
+
+.container-barra-pesquisa{
+    padding: 7px;
 }
 
 .container-cabecalho-grupo1{
@@ -52,5 +63,5 @@ body{
 .container-cabecalho-grupo3{
     display: flex;
     gap: 20px;
-    padding-top: 16px;
+    padding-top: 10px;
 }
