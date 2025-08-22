@@ -1,0 +1,56 @@
+css projeto 5 dio:
+
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+    max-width: 100%;
+}
+
+.container-cabecalho{
+    border: 1px solid black;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.img-logo-yt{
+    width: 90px;
+}
+.input-pesquisa{
+    width: 348px;
+    height: 40px;
+}
+.btn-pesquisa{
+    width: 57px;
+    height: 40px;
+}
+.img-pesquisa{
+    width: 24px;
+    height: 24px;
+}
+
+.container-cabecalho-grupo1{
+    display: flex;
+    gap: 20px;
+    padding-top: 16px;
+}
+
+.container-cabecalho-grupo2{
+    display: flex;
+}
+
+.container-cabecalho-grupo3{
+    display: flex;
+    gap: 20px;
+    padding-top: 16px;
+}
