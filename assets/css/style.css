@@ -65,3 +65,22 @@ body{
     gap: 20px;
     padding-top: 10px;
 }
+.container-sidebar-1, .container-sidebar-2, .container-sidebar-3, 
+.container-sidebar-4, .container-sidebar-5, .container-sidebar-6, 
+.container-sidebar-7, .container-sidebar-8, .container-sidebar-9{
+    display: flex;
+    gap: 16px;
+    font-family: roboto;
+}
+.titulo-sidebar{
+    font-weight: 600;
+    font-size: 14px;
+}
+.paragrafo-sidebar{
+    font-weight: 400;
+    font-size: 12px;
+}
+.img-sidebar{
+    width: 160px;
+    height: 90px;
+}
